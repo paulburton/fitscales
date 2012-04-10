@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FitScalesBoardFragment">
+        <item name="android:layout_margin">15dp</item>
+    </style>
+    
+    <style name="FitScalesBoardOverlay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="FitScalesBoardOverlayPadding">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+    
+    <style name="FitScalesScaleView">
+        <item name="android:layout_margin">0dp</item>
+    </style>
+    
+    <style name="FitScalesSettingsFragment">
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">400dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+</resources>

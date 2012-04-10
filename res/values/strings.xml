@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FitScales</string>
+
+    <string name="board_overlay_error">Error&#8230;</string>
+    <string name="board_overlay_error_sub">The connection could not be setup.</string>
+    <string name="board_overlay_error_retry">Retry</string>
+
+    <string name="board_overlay_scanning">Scanning&#8230;</string>
+    <string name="board_overlay_scanning_sub">Please press the red sync button on your balance board &amp; wait.</string>
+
+    <string name="board_overlay_connecting">Connecting&#8230;</string>
+    <string name="board_overlay_connecting_sub">Please wait whilst a connection to the balance board is made.</string>
+
+    <string name="board_overlay_stabilising">Stabilising&#8230;</string>
+    <string name="board_overlay_stabilising_sub">Please place the balance board on a flat surface &amp; do not stand on it.</string>
+
+    <string name="board_overlay_calibrating">Calibrating&#8230;</string>
+    <string name="board_overlay_calibrating_sub">Please wait whilst the balance board is calibrated.</string>
+    
+    <string name="board_overlay_warning_title">Please Note</string>
+    <string name="board_overlay_warning_text">Some devices are not compatible with Wii hardware. If your board isn\'t found or won\'t connect, it\'s likely that your device is incompatible. There is nothing FitScales can do about this.</string>
+
+    <string name="dialog_weighin_title">Weight: %1$s</string>
+    <string name="dialog_weighin_bmi">BMI:</string>
+    <string name="dialog_weighin_bmival">%1$.2f</string>
+    <string name="dialog_weighin_delta">Change:</string>
+    <string name="dialog_weighin_status_syncing">Syncing %1$s&#8230;</string>
+    <string name="dialog_weighin_status_syncfail">Failed to sync %1$s</string>
+    <string name="dialog_weighin_status_synced">Synchronised</string>
+    <string name="dialog_weighin_sync">Sync</string>
+    <string name="dialog_weighin_ok">OK</string>
+    
+    <string name="dialog_oauth_title">Authorise FitScales</string>
+    <string name="dialog_oauth_cancel">Cancel</string>
+
+    <string name="menuitem_settings">Settings</string>
+
+    <string name="settings_body_height">Height:</string>
+    <string name="settings_body_weightunit">Weight unit:</string>
+    
+    <string name="settings_sync_disabled">Not connected</string>
+    <string name="settings_sync_enabled">Connected as %1$s</string>
+    <string name="settings_sync_connecting">Connecting&#8230;</string>
+    <string name="settings_sync_global">Global Sync Settings</string>
+    <string name="settings_sync_auto">Auto-sync on weigh</string>
+
+    <string name="settings_about_copyright">Copyright &#0169; 2012 Paul Burton</string>
+    <string name="settings_about_time">Developing and improving this app takes a significant amount of time. If you have benefited from it and wish to support that development then please consider donating. Thank you!</string>
+    <string name="settings_about_donate">Donate</string>
+    
+    <string-array name="height_units_main_array">
+        <item>Meters</item>
+        <item>Inches</item>
+        <item>Feet</item>
+    </string-array>
+    
+    <string-array name="height_units_sub_array">
+        <item></item>
+        <item></item>
+        <item>Inches</item>
+    </string-array>
+    
+    <string-array name="weight_units_main_array">
+        <item>Kg</item>
+        <item>Lbs</item>
+        <item>Stone</item>
+    </string-array>
+    
+    <string-array name="weight_units_formatter_array">
+        <item>%1$.2f Kg</item>
+        <item>%1$.2f Lbs</item>
+        <item>%1$.0f Stone %2$.2f Lbs</item>
+    </string-array>
+    
+    <!-- for Switch widget -->
+    <string name="capital_on">ON</string>
+    <string name="capital_off">OFF</string>
+
+</resources>

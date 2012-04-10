@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.pburton.fitscales.BoardView
+        android:id="@+id/board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/llOverlay"
+        style="@style/FitScalesBoardOverlay"
+        android:layout_centerVertical="true"
+        android:background="@drawable/board_overlay_padding_bg"
+        android:orientation="vertical" >
+
+        <View style="@style/FitScalesBoardOverlayPadding" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/board_overlay_hr" />
+
+        <TableLayout
+            android:background="@drawable/board_overlay_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal" >
+
+                    <ProgressBar
+                        android:id="@+id/pbBusy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:indeterminateOnly="true" />
+
+                    <Button
+                        android:id="@+id/btnRetry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/board_overlay_error_retry" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvBoardOverlayText"
+                        style="@android:style/TextAppearance.Large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/board_overlay_scanning"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:id="@+id/tvBoardOverlayTextSub"
+                        style="@android:style/TextAppearance.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/board_overlay_scanning_sub"
+                        android:textColor="#ffffffff" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+
+                <LinearLayout
+                    android:id="@+id/llBluetoothWarning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp" >
+
+                    <TextView
+                        style="@android:style/TextAppearance.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/board_overlay_warning_title"
+                        android:textColor="#ffff4040"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        style="@android:style/TextAppearance.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/board_overlay_warning_text"
+                        android:textColor="#ffffffff"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/board_overlay_hr" />
+
+        <View style="@style/FitScalesBoardOverlayPadding" />
+    </LinearLayout>
+
+</RelativeLayout>

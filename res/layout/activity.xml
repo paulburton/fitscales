@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/fragBoard"
+            android:name="com.pburton.fitscales.BoardFragment"
+            style="@style/FitScalesBoardFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"
+            android:minHeight="20dp" >
+
+            <!-- Preview: layout=@layout/board_fragment -->
+        </fragment>
+
+        <com.pburton.fitscales.ScaleView
+            android:id="@+id/scale"
+            style="@style/FitScalesScaleView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/viewSettings"
+        style="@style/FitScalesSettingsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" >
+
+        <fragment
+            android:id="@+id/fragSettings"
+            android:name="com.pburton.fitscales.SettingsFragment"
+            style="@style/FitScalesSettingsFragment" />
+    </RelativeLayout>
+
+</RelativeLayout>

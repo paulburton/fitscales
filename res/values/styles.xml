@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FitScales" parent="@style/Theme.Sherlock">
+        <item name="actionBarStyle">@style/FitScalesActionBar</item>
+        <item name="android:actionBarStyle">@style/FitScalesActionBar</item>
+        
+        <item name="android:windowBackground">@drawable/window_background</item>
+    </style>
+
+    <style name="FitScalesActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+        <item name="background">@drawable/action_bar_background</item>
+        <item name="android:background">@drawable/action_bar_background</item>
+    </style>
+    
+    <style name="FitScalesBoardFragment">
+        <item name="android:layout_margin">0dp</item>
+    </style>
+    
+    <style name="FitScalesBoardOverlay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <style name="FitScalesBoardOverlayPadding">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="FitScalesScaleView">
+        <item name="android:layout_margin">0dp</item>
+    </style>
+    
+    <style name="FitScalesSettingsView">
+        <item name="android:background">#60000000</item>
+    </style>
+    
+    <style name="FitScalesSettingsFragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+</resources>

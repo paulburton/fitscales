@@ -1,0 +1,877 @@
+a -> aq:
+    java.util.Map a -> a
+    java.util.Map b -> b
+    void a(d,java.util.Map,android.net.Uri,android.webkit.WebView) -> a
+    boolean a(android.net.Uri) -> a
+    boolean b(android.net.Uri) -> b
+    boolean c(android.net.Uri) -> c
+    void a(android.webkit.WebView,java.lang.String,java.lang.String) -> a
+    void a(android.webkit.WebView,java.lang.String) -> a
+    void a(android.webkit.WebView,java.util.Map) -> a
+    void a(android.webkit.WebView) -> a
+    void b(android.webkit.WebView) -> b
+b -> ao:
+    c a -> c
+    d b -> d
+    boolean c -> a
+    java.lang.String d -> b
+    void a(java.net.HttpURLConnection) -> a
+    void b(java.net.HttpURLConnection) -> b
+    void run() -> run
+c -> ap:
+    java.lang.String a -> d
+    java.lang.String b -> e
+    b c -> f
+    d d -> g
+    com.google.ads.AdRequest e -> a
+    android.webkit.WebView f -> h
+    java.lang.String g -> i
+    java.util.LinkedList h -> j
+    boolean i -> b
+    com.google.ads.AdRequest$ErrorCode j -> k
+    boolean k -> l
+    int l -> m
+    java.lang.Thread m -> c
+    void a(java.lang.String) -> a
+    void run() -> run
+    java.lang.String a(com.google.ads.AdRequest,android.app.Activity) -> a
+    void a(com.google.ads.AdRequest$ErrorCode,boolean) -> a
+    void a(java.lang.String,java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(com.google.ads.AdRequest$ErrorCode) -> a
+    void b() -> a
+    void a(int) -> a
+c$a -> a:
+    d b -> a
+    android.webkit.WebView c -> b
+    b d -> c
+    com.google.ads.AdRequest$ErrorCode e -> d
+    boolean f -> e
+    void run() -> run
+c$b -> b:
+c$c -> c:
+    java.lang.String b -> a
+    java.lang.String c -> b
+    android.webkit.WebView d -> c
+    void run() -> run
+c$d -> d:
+c$e -> f:
+    d b -> a
+    java.util.LinkedList c -> b
+    int d -> c
+    void run() -> run
+com.android.vending.billing.IMarketBillingService -> z:
+    android.os.Bundle sendBillingRequest(android.os.Bundle) -> a
+com.android.vending.billing.IMarketBillingService$Stub -> dh:
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.android.vending.billing.IMarketBillingService$Stub$Proxy -> cc:
+    android.os.IBinder mRemote -> a
+    android.os.IBinder asBinder() -> asBinder
+    android.os.Bundle sendBillingRequest(android.os.Bundle) -> a
+com.google.ads.Ad -> v:
+com.google.ads.AdActivity -> com.google.ads.AdActivity:
+    java.lang.Object a -> a
+    com.google.ads.AdActivity b -> b
+    d c -> c
+    com.google.ads.AdActivity d -> d
+    com.google.ads.AdActivity e -> e
+    g f -> f
+    long g -> g
+    android.widget.RelativeLayout h -> h
+    com.google.ads.AdActivity i -> i
+    boolean j -> j
+    android.widget.VideoView k -> k
+    void a(java.lang.String) -> a
+    android.widget.VideoView getVideoView() -> a
+    g getOpeningAdWebView() -> b
+    boolean isShowing() -> c
+    void launchAdActivity(d,e) -> a
+    void onClick(android.view.View) -> onClick
+    void onCreate(android.os.Bundle) -> onCreate
+    void a(g,boolean,int) -> a
+    void showVideo(android.widget.VideoView) -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+    void onDestroy() -> onDestroy
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+    boolean onError(android.media.MediaPlayer,int,int) -> onError
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+com.google.ads.AdRequest -> co:
+    java.util.Set c -> a
+    boolean g -> b
+    void addKeyword(java.lang.String) -> a
+    java.util.Map getRequestMap(android.content.Context) -> a
+com.google.ads.AdRequest$ErrorCode -> bl:
+    com.google.ads.AdRequest$ErrorCode INVALID_REQUEST -> a
+    com.google.ads.AdRequest$ErrorCode NO_FILL -> b
+    com.google.ads.AdRequest$ErrorCode NETWORK_ERROR -> c
+    com.google.ads.AdRequest$ErrorCode INTERNAL_ERROR -> d
+    java.lang.String a -> e
+    com.google.ads.AdRequest$ErrorCode[] b -> f
+    com.google.ads.AdRequest$ErrorCode[] values() -> values
+    com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+com.google.ads.AdSize -> ct:
+    com.google.ads.AdSize BANNER -> a
+    com.google.ads.AdSize IAB_MRECT -> b
+    com.google.ads.AdSize IAB_BANNER -> c
+    com.google.ads.AdSize IAB_LEADERBOARD -> d
+    int a -> e
+    int b -> f
+    java.lang.String c -> g
+    int getWidth() -> a
+    int getHeight() -> b
+    java.lang.String toString() -> toString
+com.google.ads.AdView -> com.google.ads.AdView:
+    d a -> a
+    void a(android.content.Context,java.lang.String,int,com.google.ads.AdSize,android.util.AttributeSet) -> a
+    boolean a(android.content.Context,com.google.ads.AdSize,android.util.AttributeSet) -> a
+    void a(android.content.Context,java.lang.String,com.google.ads.AdSize,android.util.AttributeSet) -> a
+    void a(android.content.Context,android.util.AttributeSet) -> a
+    void a(android.app.Activity,com.google.ads.AdSize,java.lang.String) -> a
+    void loadAd(com.google.ads.AdRequest) -> a
+    void setAdListener$176853ce(com.pburton.fitscales.ScalesView$Listener) -> setAdListener$176853ce
+com.google.ads.InstallReceiver -> com.google.ads.InstallReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.lang.String a(java.lang.String,java.lang.String,java.lang.String) -> a
+    void forwardIntent(android.content.Context,android.content.Intent) -> a
+com.google.ads.InterstitialAd -> br:
+com.google.ads.util.AdUtil -> com.google.ads.util.AdUtil:
+    int a -> a
+    java.lang.Boolean b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    android.media.AudioManager e -> e
+    boolean f -> f
+    boolean g -> g
+    java.lang.String h -> h
+    java.lang.String a(android.content.Context) -> a
+    int a() -> a
+    int b() -> b
+    int a(android.content.Context,android.util.DisplayMetrics) -> a
+    int b(android.content.Context,android.util.DisplayMetrics) -> b
+    boolean b(android.content.Context) -> b
+    boolean c(android.content.Context) -> c
+    boolean c() -> c
+    boolean a(android.net.Uri) -> a
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String d(android.content.Context) -> d
+    java.lang.String e(android.content.Context) -> e
+    com.google.ads.util.AdUtil$a f(android.content.Context) -> f
+    android.util.DisplayMetrics a(android.app.Activity) -> a
+    java.util.HashMap b(android.net.Uri) -> b
+    boolean d() -> d
+    void a(boolean) -> a
+    void g(android.content.Context) -> g
+    java.lang.String h(android.content.Context) -> h
+    void a(android.webkit.WebView) -> a
+    void a(java.net.HttpURLConnection,android.content.Context) -> a
+    java.lang.String a(java.util.Map) -> a
+    org.json.JSONObject b(java.util.Map) -> b
+    org.json.JSONArray a(java.util.Set) -> a
+com.google.ads.util.AdUtil$UserActivityReceiver -> com.google.ads.util.AdUtil$UserActivityReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.google.ads.util.AdUtil$a -> cb:
+    com.google.ads.util.AdUtil$a a -> d
+    com.google.ads.util.AdUtil$a b -> a
+    com.google.ads.util.AdUtil$a c -> e
+    com.google.ads.util.AdUtil$a d -> b
+    com.google.ads.util.AdUtil$a e -> c
+    com.google.ads.util.AdUtil$a f -> f
+    com.google.ads.util.AdUtil$a[] g -> g
+    com.google.ads.util.AdUtil$a[] values() -> values
+    com.google.ads.util.AdUtil$a valueOf(java.lang.String) -> valueOf
+com.pburton.fitscales.BalanceBoard -> com.pburton.fitscales.BalanceBoard:
+    android.bluetooth.BluetoothDevice dev -> a
+    java.util.ArrayList listeners -> b
+    android.os.Handler handler -> c
+    com.pburton.fitscales.BalanceBoard$InThread inThread -> d
+    com.pburton.fitscales.BalanceBoard$OutThread outThread -> e
+    com.pburton.fitscales.BalanceBoard$CalThread calThread -> f
+    com.pburton.fitscales.BalanceBoard$KickStatusThread kickStatusThread -> g
+    java.util.ArrayList readRequests -> h
+    boolean ledOn -> i
+    boolean haveExpansion -> j
+    boolean receivedStatus -> k
+    com.pburton.fitscales.BalanceBoard$Data dat -> l
+    void finalize() -> finalize
+    void addListener(com.pburton.fitscales.BalanceBoard$Listener) -> a
+    void removeListener(com.pburton.fitscales.BalanceBoard$Listener) -> b
+    void stop() -> a
+    boolean getLed() -> b
+    void setLed(boolean) -> a
+    void beginCalibrate() -> c
+    void readData(int,short,com.pburton.fitscales.BalanceBoard$ReadListener) -> a
+    void sendReadRequest(com.pburton.fitscales.BalanceBoard$ReadRequest) -> a
+    void send(byte,byte[]) -> a
+    float arrayMean(float[],int,int) -> b
+    float arrayMax(float[],int,int) -> a
+    int btL2CapSocket(byte[],int) -> btL2CapSocket
+    void btCloseSocket(int) -> btCloseSocket
+    byte[] btRead(int) -> btRead
+    int btWrite(int,byte[]) -> btWrite
+    java.util.ArrayList access$100(com.pburton.fitscales.BalanceBoard) -> a
+    boolean access$200(com.pburton.fitscales.BalanceBoard) -> b
+    com.pburton.fitscales.BalanceBoard$Data access$400(com.pburton.fitscales.BalanceBoard) -> c
+    int access$600$7886a03(byte[],int) -> a
+    boolean access$1002$72f4d34(com.pburton.fitscales.BalanceBoard) -> d
+    android.bluetooth.BluetoothDevice access$1200(com.pburton.fitscales.BalanceBoard) -> e
+    com.pburton.fitscales.BalanceBoard$InThread access$1300(com.pburton.fitscales.BalanceBoard) -> f
+    void access$1400(com.pburton.fitscales.BalanceBoard) -> g
+    void access$1500(com.pburton.fitscales.BalanceBoard) -> h
+    int access$1600(byte[],int) -> b
+    void access$1700(int) -> a
+    com.pburton.fitscales.BalanceBoard$InThread access$1302(com.pburton.fitscales.BalanceBoard,com.pburton.fitscales.BalanceBoard$InThread) -> a
+    void access$1800(com.pburton.fitscales.BalanceBoard) -> i
+    int access$1900(int,byte[]) -> a
+    byte[] access$2000(int) -> b
+    void access$2100(com.pburton.fitscales.BalanceBoard,byte[]) -> a
+    boolean access$2200(com.pburton.fitscales.BalanceBoard) -> j
+    void access$2300$6336177(com.pburton.fitscales.BalanceBoard,byte[]) -> b
+    boolean access$1000(com.pburton.fitscales.BalanceBoard) -> k
+    com.pburton.fitscales.BalanceBoard$KickStatusThread access$2402$7d6c8176(com.pburton.fitscales.BalanceBoard) -> l
+    void access$2500(com.pburton.fitscales.BalanceBoard,int) -> a
+    com.pburton.fitscales.BalanceBoard$CalThread access$3902$4543ee6a(com.pburton.fitscales.BalanceBoard) -> m
+com.pburton.fitscales.BalanceBoard$1 -> ca:
+    com.pburton.fitscales.BalanceBoard this$0 -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$2 -> bz:
+    com.pburton.fitscales.BalanceBoard this$0 -> a
+    void onReadDone(byte[]) -> a
+    void onReadError() -> a
+com.pburton.fitscales.BalanceBoard$3 -> bx:
+    com.pburton.fitscales.BalanceBoard this$0 -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$4 -> ch:
+    int val$cal -> a
+    com.pburton.fitscales.BalanceBoard this$0 -> b
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$5 -> cg:
+    void onReadDone(byte[]) -> a
+    void onReadError() -> a
+com.pburton.fitscales.BalanceBoard$6 -> cf:
+    com.pburton.fitscales.BalanceBoard this$0 -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$7 -> cd:
+    com.pburton.fitscales.BalanceBoard this$0 -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$8 -> ci:
+    com.pburton.fitscales.BalanceBoard this$0 -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$CalThread -> o:
+    com.pburton.fitscales.BalanceBoard board -> b
+    boolean canceled -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$Data -> h:
+    int rawTl -> a
+    int rawTr -> b
+    int rawBl -> c
+    int rawBr -> d
+    int[] cTl -> e
+    int[] cTr -> f
+    int[] cBl -> g
+    int[] cBr -> h
+    float[] tl -> i
+    float[] tr -> j
+    float[] bl -> k
+    float[] br -> l
+    int smoothIdx -> m
+    int smoothCount -> n
+    float stl -> o
+    float str -> p
+    float sbl -> q
+    float sbr -> r
+    java.lang.Object calLock -> s
+    boolean calibrating -> t
+    float calTl -> u
+    float calTr -> v
+    float calBl -> w
+    float calBr -> x
+    java.lang.Thread sampleThread -> D
+    float[] samp -> y
+    int sampIdx -> z
+    int sampCount -> A
+    float finWeight -> B
+    boolean endThreads -> C
+    void finalize() -> finalize
+    void stop() -> a
+    float interpolate(int,int[]) -> a
+com.pburton.fitscales.BalanceBoard$Data$1 -> cj:
+    com.pburton.fitscales.BalanceBoard$Data this$1 -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$InThread -> cy:
+    com.pburton.fitscales.BalanceBoard board -> b
+    int skIn -> c
+    boolean canceled -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$KickStatusThread -> ae:
+    com.pburton.fitscales.BalanceBoard board -> b
+    boolean canceled -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$Listener -> av:
+    void onConnecting$3a09ce74() -> a
+    void onConnected(com.pburton.fitscales.BalanceBoard) -> a
+    void onDisconnected$3a09ce74() -> b
+    void onCalibrating$72f8d09(int) -> a
+    void onData$116bfd9f(com.pburton.fitscales.BalanceBoard$Data) -> a
+    void onLED$72f4d38(boolean) -> a
+com.pburton.fitscales.BalanceBoard$OutThread -> bs:
+    com.pburton.fitscales.BalanceBoard board -> a
+    java.util.ArrayList outQueue -> b
+    boolean canceled -> c
+    byte[] getDevAddr() -> a
+    void run() -> run
+com.pburton.fitscales.BalanceBoard$ReadListener -> cw:
+    void onReadDone(byte[]) -> a
+    void onReadError() -> a
+com.pburton.fitscales.BalanceBoard$ReadRequest -> p:
+    int addr -> a
+    short len -> b
+    short remaining -> c
+    byte[] data -> d
+    com.pburton.fitscales.BalanceBoard$ReadListener listener -> e
+com.pburton.fitscales.BillingReceiver -> com.pburton.fitscales.BillingReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.pburton.fitscales.BillingService -> com.pburton.fitscales.BillingService:
+    com.android.vending.billing.IMarketBillingService mService -> a
+    java.util.LinkedList mPendingRequests -> b
+    java.util.HashMap mSentRequests -> c
+    void setContext(android.content.Context) -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onStart(android.content.Intent,int) -> onStart
+    boolean bindToMarketBillingService() -> g
+    boolean checkBillingSupported() -> a
+    boolean requestPurchase$16da05f3(java.lang.String) -> a
+    boolean restoreTransactions() -> b
+    boolean confirmNotifications(int,java.lang.String[]) -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+    boolean access$000(com.pburton.fitscales.BillingService) -> a
+    java.util.LinkedList access$100() -> c
+    com.android.vending.billing.IMarketBillingService access$200() -> d
+    java.util.HashMap access$300() -> e
+    com.android.vending.billing.IMarketBillingService access$202$3a497d47() -> f
+com.pburton.fitscales.BillingService$BillingRequest -> bb:
+    int mStartId -> a
+    long mRequestId -> b
+    com.pburton.fitscales.BillingService this$0 -> c
+    boolean runRequest() -> b
+    boolean runIfConnected() -> c
+    void onRemoteException(android.os.RemoteException) -> a
+    long run() -> a
+    void responseCodeReceived(com.pburton.fitscales.Consts$ResponseCode) -> a
+    android.os.Bundle makeRequestBundle(java.lang.String) -> a
+    void logResponseCode$5dc9c75(android.os.Bundle) -> a
+com.pburton.fitscales.BillingService$CheckBillingSupported -> ce:
+    long run() -> a
+com.pburton.fitscales.BillingService$ConfirmNotifications -> ad:
+    java.lang.String[] mNotifyIds -> b
+    long run() -> a
+com.pburton.fitscales.BillingService$GetPurchaseInformation -> x:
+    long mNonce -> b
+    java.lang.String[] mNotifyIds -> c
+    long run() -> a
+    void onRemoteException(android.os.RemoteException) -> a
+com.pburton.fitscales.BillingService$RequestPurchase -> bq:
+    java.lang.String mProductId -> b
+    long run() -> a
+    void responseCodeReceived(com.pburton.fitscales.Consts$ResponseCode) -> a
+com.pburton.fitscales.BillingService$RestoreTransactions -> u:
+    long mNonce -> b
+    long run() -> a
+    void onRemoteException(android.os.RemoteException) -> a
+    void responseCodeReceived(com.pburton.fitscales.Consts$ResponseCode) -> a
+com.pburton.fitscales.Consts -> q:
+    long BILLING_RESPONSE_INVALID_REQUEST_ID -> a
+com.pburton.fitscales.Consts$PurchaseState -> cs:
+    com.pburton.fitscales.Consts$PurchaseState PURCHASED -> a
+    com.pburton.fitscales.Consts$PurchaseState CANCELED -> c
+    com.pburton.fitscales.Consts$PurchaseState REFUNDED -> b
+    com.pburton.fitscales.Consts$PurchaseState[] $VALUES -> d
+    com.pburton.fitscales.Consts$PurchaseState[] values() -> values
+    com.pburton.fitscales.Consts$PurchaseState valueOf(java.lang.String) -> valueOf
+    com.pburton.fitscales.Consts$PurchaseState valueOf(int) -> a
+com.pburton.fitscales.Consts$ResponseCode -> bn:
+    com.pburton.fitscales.Consts$ResponseCode RESULT_OK -> a
+    com.pburton.fitscales.Consts$ResponseCode RESULT_USER_CANCELED -> c
+    com.pburton.fitscales.Consts$ResponseCode RESULT_SERVICE_UNAVAILABLE -> d
+    com.pburton.fitscales.Consts$ResponseCode RESULT_BILLING_UNAVAILABLE -> e
+    com.pburton.fitscales.Consts$ResponseCode RESULT_ITEM_UNAVAILABLE -> f
+    com.pburton.fitscales.Consts$ResponseCode RESULT_DEVELOPER_ERROR -> g
+    com.pburton.fitscales.Consts$ResponseCode RESULT_ERROR -> b
+    com.pburton.fitscales.Consts$ResponseCode[] $VALUES -> h
+    com.pburton.fitscales.Consts$ResponseCode[] values() -> values
+    com.pburton.fitscales.Consts$ResponseCode valueOf(java.lang.String) -> valueOf
+    com.pburton.fitscales.Consts$ResponseCode valueOf(int) -> a
+com.pburton.fitscales.FitScalesApplication -> com.pburton.fitscales.FitScalesApplication:
+    java.lang.ref.WeakReference activeActivity -> d
+    boolean purchasedPro -> a
+    boolean billingSupported -> b
+    com.pburton.fitscales.BillingService billingService -> e
+    com.pburton.fitscales.PurchaseDatabase purchaseDb -> f
+    android.content.SharedPreferences prefs -> g
+    com.pburton.fitscales.FitScalesApplication inst -> c
+    void onCreate() -> onCreate
+    void setActiveActivity(com.pburton.fitscales.ScalesActivity) -> a
+    void updateProState() -> b
+    void purchasePro() -> a
+    void startBuyPageActivity(android.app.PendingIntent,android.content.Intent) -> a
+    void onBillingSupported(boolean) -> a
+    void onRequestPurchaseResponse(com.pburton.fitscales.BillingService$RequestPurchase,com.pburton.fitscales.Consts$ResponseCode) -> a
+    void onPurchaseStateChange$61bca311(java.lang.String) -> a
+    void onRestoreTransactionsResponse$629d2a10(com.pburton.fitscales.Consts$ResponseCode) -> a
+    void access$000(com.pburton.fitscales.FitScalesApplication) -> a
+    void access$100(com.pburton.fitscales.FitScalesApplication) -> b
+com.pburton.fitscales.FitScalesApplication$1 -> t:
+    boolean val$purchaseDbInitialised -> a
+    com.pburton.fitscales.FitScalesApplication this$0 -> b
+    void run() -> run
+com.pburton.fitscales.PurchaseDatabase -> w:
+    java.lang.String[] HISTORY_COLUMNS -> a
+    java.lang.String[] PURCHASED_COLUMNS -> b
+    android.database.sqlite.SQLiteDatabase mDb -> c
+    com.pburton.fitscales.PurchaseDatabase$DatabaseHelper mDatabaseHelper -> d
+    void close() -> a
+    int updatePurchase(java.lang.String,java.lang.String,com.pburton.fitscales.Consts$PurchaseState,long,java.lang.String) -> a
+    android.database.Cursor queryAllPurchasedItems() -> b
+com.pburton.fitscales.PurchaseDatabase$DatabaseHelper -> y:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void createPurchaseTable(android.database.sqlite.SQLiteDatabase) -> a
+com.pburton.fitscales.ResponseHandler -> ac:
+    com.pburton.fitscales.FitScalesApplication app -> a
+    void register(com.pburton.fitscales.FitScalesApplication) -> a
+com.pburton.fitscales.ResponseHandler$1 -> cl:
+    android.content.Context val$context -> a
+    java.lang.String val$orderId -> b
+    java.lang.String val$productId -> c
+    com.pburton.fitscales.Consts$PurchaseState val$purchaseState -> d
+    long val$purchaseTime -> e
+    java.lang.String val$developerPayload -> f
+    void run() -> run
+com.pburton.fitscales.ScalesActivity -> com.pburton.fitscales.ScalesActivity:
+    android.content.SharedPreferences prefs -> a
+    com.pburton.fitscales.ScalesView scales -> b
+    com.pburton.fitscales.ScalesActivity$State state -> c
+    android.content.DialogInterface dialog -> d
+    com.pburton.fitscales.ScalesActivity$StopThread stopThread -> e
+    android.widget.FrameLayout rootLayout -> f
+    com.google.ads.AdView adView -> g
+    android.content.BroadcastReceiver btReceiver -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void updateProState() -> c
+    void scanForBoard() -> f
+    void dismissDialogs() -> g
+    void onNoBluetooth() -> h
+    void startBtScan() -> i
+    boolean handleOAuthIntent(android.content.Intent) -> a
+    void beginLogin() -> d
+    void onLoginFail() -> e
+    void onConnecting$3a09ce74() -> a
+    void onConnected(com.pburton.fitscales.BalanceBoard) -> a
+    void onDisconnected$3a09ce74() -> b
+    void onCalibrating$72f8d09(int) -> a
+    void onData$116bfd9f(com.pburton.fitscales.BalanceBoard$Data) -> a
+    void onLED$72f4d38(boolean) -> a
+    void onWeighIn$f154b78(float) -> a
+    void rkUpload() -> j
+    com.pburton.fitscales.ScalesActivity$State access$000(com.pburton.fitscales.ScalesActivity) -> a
+    void access$100(com.pburton.fitscales.ScalesActivity) -> b
+    void access$200(com.pburton.fitscales.ScalesActivity) -> c
+    void access$300(com.pburton.fitscales.ScalesActivity,java.lang.String) -> a
+    void access$400(com.pburton.fitscales.ScalesActivity) -> d
+    void access$500(com.pburton.fitscales.ScalesActivity) -> e
+    void access$800(com.pburton.fitscales.ScalesActivity) -> f
+    void access$900(com.pburton.fitscales.ScalesActivity) -> g
+    com.pburton.fitscales.ScalesActivity$StopThread access$1002$57601740(com.pburton.fitscales.ScalesActivity) -> h
+com.pburton.fitscales.ScalesActivity$1 -> df:
+    com.pburton.fitscales.ScalesActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.pburton.fitscales.ScalesActivity$2 -> dd:
+    com.pburton.fitscales.ScalesActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.pburton.fitscales.ScalesActivity$3 -> dc:
+    java.lang.String val$code -> b
+    android.os.Handler val$handler -> c
+    com.pburton.fitscales.ScalesActivity this$0 -> a
+    void run() -> run
+com.pburton.fitscales.ScalesActivity$3$1 -> ag:
+    java.lang.String val$token -> a
+    com.pburton.fitscales.ScalesActivity$3 this$1 -> b
+    void run() -> run
+com.pburton.fitscales.ScalesActivity$3$2 -> af:
+    com.pburton.fitscales.ScalesActivity$3 this$1 -> a
+    void run() -> run
+com.pburton.fitscales.ScalesActivity$4 -> db:
+    android.os.Handler val$handler -> b
+    com.pburton.fitscales.ScalesActivity this$0 -> a
+    void run() -> run
+com.pburton.fitscales.ScalesActivity$4$1 -> cx:
+    com.pburton.fitscales.ScalesActivity$4 this$1 -> a
+    void run() -> run
+com.pburton.fitscales.ScalesActivity$4$2 -> cu:
+    com.pburton.fitscales.ScalesActivity$4 this$1 -> a
+    void run() -> run
+com.pburton.fitscales.ScalesActivity$State -> cq:
+    android.bluetooth.BluetoothAdapter btAdapter -> a
+    android.bluetooth.BluetoothDevice wiiBt -> b
+    com.pburton.fitscales.BalanceBoard board -> c
+    float weighInWeight -> d
+    java.lang.String rkOAToken -> e
+    boolean rkUploading -> f
+com.pburton.fitscales.ScalesActivity$StopThread -> bo:
+    com.pburton.fitscales.ScalesActivity mActivity -> b
+    boolean mCanceled -> a
+    void run() -> run
+com.pburton.fitscales.ScalesActivity$WeighInDialog -> an:
+    com.pburton.fitscales.ScalesActivity mActivity -> a
+    float mWeight -> c
+    android.app.AlertDialog mDialog -> b
+    android.widget.TextView tvWeight -> d
+    android.widget.Button btnUploadRunKeeper -> e
+    android.widget.Button btnDone -> f
+    void cancel() -> cancel
+    void dismiss() -> dismiss
+    void access$600$1aa118e7(com.pburton.fitscales.ScalesActivity$WeighInDialog,boolean) -> a
+com.pburton.fitscales.ScalesActivity$WeighInDialog$1 -> bw:
+    com.pburton.fitscales.ScalesActivity$WeighInDialog this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.pburton.fitscales.ScalesActivity$WeighInDialog$2 -> by:
+    com.pburton.fitscales.ScalesActivity$WeighInDialog this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.pburton.fitscales.ScalesView -> com.pburton.fitscales.ScalesView:
+    boolean weighInEnabled -> a
+    long weighInValid -> b
+    com.pburton.fitscales.ScalesView$Listener mListener -> c
+    com.pburton.fitscales.ScalesView$State mState -> d
+    com.pburton.fitscales.ScalesView$DrawState mDrawState -> e
+    void setListener(com.pburton.fitscales.ScalesView$Listener) -> setListener
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onConnecting$3a09ce74() -> a
+    void onConnected(com.pburton.fitscales.BalanceBoard) -> a
+    void onDisconnected$3a09ce74() -> b
+    void onCalibrating$72f8d09(int) -> a
+    void onData$116bfd9f(com.pburton.fitscales.BalanceBoard$Data) -> a
+    void onLED$72f4d38(boolean) -> a
+com.pburton.fitscales.ScalesView$DrawState -> aa:
+    int w -> a
+    int h -> b
+    android.graphics.drawable.GradientDrawable drawBG -> c
+    android.graphics.Path pathBoard -> d
+    android.graphics.Path pathBoardInner -> e
+    android.graphics.Paint paintBoardOutline -> f
+    android.graphics.Paint paintBoardOutlineInner -> g
+    android.graphics.Paint paintBoardBGEdge -> h
+    android.graphics.Paint paintBoardBGInner -> i
+    android.graphics.Paint paintSepLine -> j
+    android.graphics.RectF rectBoardInCurve -> k
+    android.graphics.RectF rectBoardInner -> l
+    android.graphics.Path pathButton -> m
+    android.graphics.Path pathLED -> n
+    android.graphics.Paint paintButtonBG -> o
+    android.graphics.Paint paintButtonEdge -> p
+    android.graphics.Paint paintLEDOn -> q
+    android.graphics.Paint paintLEDOff -> r
+    float weighInAreaRadius -> s
+    float rotWeighInWithin -> t
+    float alphaWeighInWithin -> u
+    android.graphics.Path pathWeighInArea -> v
+    android.graphics.Paint paintWeighInArea -> w
+    android.graphics.Paint paintWeighInAreaWithin -> x
+    android.graphics.Paint paintPos -> y
+    android.graphics.Paint paintWeightText -> z
+    android.graphics.Paint paintWeighInTimeout -> A
+    android.graphics.Paint paintWeighInTimeoutOutline -> D
+    android.graphics.Rect rectWeighInTimeout -> B
+    android.graphics.Path pathWeighInTimeout -> C
+com.pburton.fitscales.ScalesView$Listener -> k:
+    void onWeighIn$f154b78(float) -> a
+com.pburton.fitscales.ScalesView$State -> cv:
+    boolean connected -> a
+    boolean ledOn -> b
+    int calibrating -> c
+    float tl -> d
+    float tr -> e
+    float bl -> f
+    float br -> g
+    float weight -> h
+com.pburton.fitscales.Security -> bf:
+    java.security.SecureRandom RANDOM -> a
+    java.util.HashSet sKnownNonces -> b
+    long generateNonce() -> a
+    void removeNonce(long) -> a
+    java.util.ArrayList verifyPurchase(java.lang.String,java.lang.String) -> a
+    java.security.PublicKey generatePublicKey(java.lang.String) -> a
+    boolean verify(java.security.PublicKey,java.lang.String,java.lang.String) -> a
+com.pburton.fitscales.Security$VerifiedPurchase -> r:
+    com.pburton.fitscales.Consts$PurchaseState purchaseState -> a
+    java.lang.String notificationId -> b
+    java.lang.String productId -> c
+    java.lang.String orderId -> d
+    long purchaseTime -> e
+    java.lang.String developerPayload -> f
+com.pburton.fitscales.util.Base64 -> e:
+    byte[] DECODABET -> a
+    int decode4to3$355785af(byte[],byte[],int,byte[]) -> a
+    byte[] decode(java.lang.String) -> a
+com.pburton.fitscales.util.Base64DecoderException -> da:
+d -> al:
+    java.lang.Object a -> a
+    java.lang.ref.WeakReference b -> b
+    com.google.ads.Ad c -> c
+    c e -> d
+    com.google.ads.AdRequest f -> e
+    com.google.ads.AdSize g -> f
+    f h -> g
+    java.lang.String i -> h
+    g j -> i
+    h k -> j
+    android.os.Handler l -> k
+    long m -> l
+    boolean o -> m
+    android.content.SharedPreferences p -> n
+    long q -> o
+    x r -> p
+    java.util.LinkedList t -> q
+    java.util.LinkedList u -> r
+    int v -> s
+    void a(java.lang.String) -> a
+    void a(java.util.LinkedList) -> a
+    void a() -> a
+    void c() -> b
+    void d() -> c
+    android.app.Activity e() -> d
+    com.google.ads.Ad f() -> e
+    c g() -> f
+    java.lang.String h() -> g
+    g i() -> h
+    h j() -> i
+    com.google.ads.AdSize k() -> j
+    f l() -> k
+    void a(int) -> a
+    int m() -> l
+    long n() -> m
+    boolean A() -> w
+    boolean p() -> n
+    void a(com.google.ads.AdRequest) -> a
+    void a(com.google.ads.AdRequest$ErrorCode) -> a
+    void q() -> o
+    void r() -> p
+    void s() -> q
+    void t() -> r
+    void u() -> s
+    void v() -> x
+    boolean w() -> t
+    void B() -> y
+    void a(java.lang.Runnable) -> a
+    void x() -> u
+    void a$176853ce$13884850() -> v
+    void a(long) -> a
+    void a(float) -> a
+e -> am:
+    java.lang.String a -> a
+    java.util.HashMap b -> b
+    int a(android.content.Context,float,int) -> a
+f -> ak:
+    java.util.LinkedList b -> a
+    long c -> b
+    long d -> c
+    java.util.LinkedList e -> d
+    long f -> e
+    java.lang.String g -> f
+    boolean h -> g
+    boolean i -> h
+    java.lang.String a -> i
+    void a() -> a
+    void b() -> b
+    void c() -> c
+    void d() -> d
+    long e() -> e
+    java.lang.String f() -> f
+    java.lang.String g() -> g
+    long h() -> h
+    long i() -> i
+    java.lang.String j() -> j
+    void a(java.lang.String) -> a
+    boolean k() -> k
+    void l() -> l
+    boolean m() -> m
+    void n() -> n
+    void o() -> o
+    java.lang.String p() -> p
+    void b(java.lang.String) -> b
+g -> g:
+    com.google.ads.AdActivity a -> a
+    com.google.ads.AdSize b -> b
+    void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> loadDataWithBaseURL
+    void loadUrl(java.lang.String) -> loadUrl
+    void onMeasure(int,int) -> onMeasure
+h -> ay:
+    d a -> c
+    java.util.Map b -> d
+    boolean c -> e
+    boolean d -> f
+    boolean e -> a
+    boolean f -> b
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+i -> az:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+j -> aw:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+k -> ax:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+l -> at:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+m -> au:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+n -> ar:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+o -> as:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+org.apache.amber.oauth2.client.HttpClient -> ah:
+    org.apache.amber.oauth2.client.response.OAuthClientResponse execute$3e98085(org.apache.amber.oauth2.common.message.OAuthMessage,java.util.Map,java.lang.String,java.lang.Class) -> a
+org.apache.amber.oauth2.client.OAuthClient -> ai:
+    void a(java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(java.lang.String,java.lang.Throwable) -> a
+    void c(java.lang.String) -> c
+    void d(java.lang.String) -> d
+    void e(java.lang.String) -> e
+    void b(java.lang.String,java.lang.Throwable) -> b
+    boolean a(java.lang.String,int) -> a
+org.apache.amber.oauth2.client.request.OAuthClientRequest$AuthenticationRequestBuilder -> cr:
+    org.apache.amber.oauth2.client.request.OAuthClientRequest$AuthenticationRequestBuilder setClientId(java.lang.String) -> a
+    org.apache.amber.oauth2.client.request.OAuthClientRequest$AuthenticationRequestBuilder setRedirectURI(java.lang.String) -> b
+org.apache.amber.oauth2.client.request.OAuthClientRequest$OAuthRequestBuilder -> cn:
+    org.apache.amber.oauth2.common.parameters.OAuthParametersApplier applier -> b
+    java.util.Map parameters -> a
+    java.lang.String url -> c
+    org.apache.amber.oauth2.common.message.OAuthMessage buildQueryMessage$44c74c79() -> a
+    org.apache.amber.oauth2.common.message.OAuthMessage buildBodyMessage$44c74c79() -> b
+org.apache.amber.oauth2.client.request.OAuthClientRequest$TokenRequestBuilder -> cm:
+    org.apache.amber.oauth2.client.request.OAuthClientRequest$TokenRequestBuilder setGrantType(org.apache.amber.oauth2.common.message.types.GrantType) -> a
+    org.apache.amber.oauth2.client.request.OAuthClientRequest$TokenRequestBuilder setClientId(java.lang.String) -> a
+    org.apache.amber.oauth2.client.request.OAuthClientRequest$TokenRequestBuilder setClientSecret(java.lang.String) -> b
+    org.apache.amber.oauth2.client.request.OAuthClientRequest$TokenRequestBuilder setCode(java.lang.String) -> c
+    org.apache.amber.oauth2.client.request.OAuthClientRequest$TokenRequestBuilder setRedirectURI(java.lang.String) -> d
+org.apache.amber.oauth2.client.response.OAuthAccessTokenResponse -> l:
+    void init(java.lang.String,java.lang.String,int) -> a
+org.apache.amber.oauth2.client.response.OAuthClientResponse -> s:
+    org.apache.amber.oauth2.client.validator.OAuthClientValidator validator -> a
+    java.util.Map parameters -> b
+    java.lang.String getParam(java.lang.String) -> a
+    void setBody(java.lang.String) -> b
+    void init(java.lang.String,java.lang.String,int) -> a
+org.apache.amber.oauth2.client.response.OAuthJSONAccessTokenResponse -> bv:
+    java.lang.String getAccessToken() -> a
+    void setBody(java.lang.String) -> b
+    java.lang.String getParam(java.lang.String) -> a
+org.apache.amber.oauth2.client.validator.OAuthClientValidator -> de:
+    java.util.Map requiredParams -> a
+    java.util.List notAllowedParams -> b
+    void validateRequiredParameters(org.apache.amber.oauth2.client.response.OAuthClientResponse) -> a
+    void validateNotAllowedParameters(org.apache.amber.oauth2.client.response.OAuthClientResponse) -> b
+org.apache.amber.oauth2.client.validator.TokenValidator -> m:
+org.apache.amber.oauth2.common.exception.OAuthProblemException -> ab:
+    java.lang.String error -> d
+    java.lang.String description -> a
+    java.lang.String uri -> b
+    java.lang.String state -> c
+    org.apache.amber.oauth2.common.exception.OAuthProblemException error(java.lang.String) -> a
+    java.lang.String getMessage() -> getMessage
+    java.lang.String toString() -> toString
+org.apache.amber.oauth2.common.exception.OAuthSystemException -> dg:
+org.apache.amber.oauth2.common.message.OAuthMessage -> cp:
+    java.lang.String url -> a
+    java.lang.String body -> b
+org.apache.amber.oauth2.common.message.types.GrantType -> bt:
+    org.apache.amber.oauth2.common.message.types.GrantType AUTHORIZATION_CODE -> a
+    org.apache.amber.oauth2.common.message.types.GrantType PASSWORD -> b
+    org.apache.amber.oauth2.common.message.types.GrantType ASSERTION -> c
+    org.apache.amber.oauth2.common.message.types.GrantType REFRESH_TOKEN -> d
+    org.apache.amber.oauth2.common.message.types.GrantType NONE -> e
+    java.lang.String grantType -> f
+    org.apache.amber.oauth2.common.message.types.GrantType[] $VALUES -> g
+    org.apache.amber.oauth2.common.message.types.GrantType[] values() -> values
+    org.apache.amber.oauth2.common.message.types.GrantType valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+org.apache.amber.oauth2.common.parameters.BodyURLEncodedParametersApplier -> bp:
+    org.apache.amber.oauth2.common.message.OAuthMessage applyOAuthParameters(org.apache.amber.oauth2.common.message.OAuthMessage,java.util.Map) -> a
+org.apache.amber.oauth2.common.parameters.OAuthParametersApplier -> aj:
+    org.apache.amber.oauth2.common.message.OAuthMessage applyOAuthParameters(org.apache.amber.oauth2.common.message.OAuthMessage,java.util.Map) -> a
+org.apache.amber.oauth2.common.parameters.QueryParameterApplier -> i:
+    org.apache.amber.oauth2.common.message.OAuthMessage applyOAuthParameters(org.apache.amber.oauth2.common.message.OAuthMessage,java.util.Map) -> a
+org.apache.amber.oauth2.common.utils.OAuthUtils -> bk:
+    java.lang.String format(java.util.Collection,java.lang.String) -> a
+    java.lang.String encode(java.lang.String,java.lang.String) -> a
+    java.lang.String saveStreamAsString(java.io.InputStream) -> a
+    java.lang.String toString(java.io.InputStream,java.lang.String) -> a
+    org.apache.amber.oauth2.common.exception.OAuthProblemException handleOAuthProblemException(java.lang.String) -> b
+    org.apache.amber.oauth2.common.exception.OAuthProblemException handleMissingParameters(java.util.Set) -> a
+    org.apache.amber.oauth2.common.exception.OAuthProblemException handleNotAllowedParametersOAuthException(java.util.List) -> a
+    java.lang.Object instantiateClassWithParameters$13c3c3d1(java.lang.Class) -> a
+    boolean isEmpty(java.lang.String) -> a
+    boolean hasEmptyValues(java.lang.String[]) -> a
+org.codehaus.jettison.json.JSONArray -> cz:
+    java.util.ArrayList myArrayList -> a
+    java.lang.String join(java.lang.String) -> a
+    java.lang.String toString() -> toString
+org.codehaus.jettison.json.JSONException -> ck:
+    java.lang.Throwable cause -> a
+    java.lang.Throwable getCause() -> getCause
+org.codehaus.jettison.json.JSONObject -> n:
+    java.util.LinkedHashMap myHashMap -> b
+    java.lang.Object NULL -> a
+    java.lang.String getString(java.lang.String) -> a
+    java.util.Iterator keys() -> a
+    java.lang.String numberToString(java.lang.Number) -> a
+    java.lang.String quote(java.lang.String) -> b
+    void testValidity(java.lang.Object) -> b
+    java.lang.String toString() -> toString
+    java.lang.String valueToString(java.lang.Object) -> a
+org.codehaus.jettison.json.JSONObject$Null -> di:
+    java.lang.Object clone() -> clone
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+org.codehaus.jettison.json.JSONString -> j:
+    java.lang.String toJSONString() -> a
+org.codehaus.jettison.json.JSONTokener -> bu:
+    int myIndex -> a
+    java.lang.String mySource -> b
+    void back() -> a
+    char next() -> b
+    java.lang.String next(int) -> a
+    char nextClean() -> c
+    java.lang.Object nextValue() -> d
+    org.codehaus.jettison.json.JSONException syntaxError(java.lang.String) -> a
+    java.lang.String toString() -> toString
+p -> bj:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+q -> bi:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+r -> bh:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+s -> bg:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+t -> be:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+u -> bd:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+v -> bc:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+w -> ba:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void run() -> run
+x -> bm:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run

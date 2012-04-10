@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <com.pburton.fitscales.widget.Switch
+        android:id="@+id/swEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:focusable="true"
+        android:clickable="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/swEnable"
+        android:layout_below="@+id/swEnable"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
