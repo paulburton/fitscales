@@ -39,6 +39,7 @@
 
     <string name="settings_body_height">Height:</string>
     <string name="settings_body_weightunit">Weight unit:</string>
+    <string name="settings_body_stability_precision">Stability precision:</string>
     
     <string name="settings_sync_disabled">Not connected</string>
     <string name="settings_sync_enabled">Connected as %1$s</string>

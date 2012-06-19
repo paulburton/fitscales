@@ -36,6 +36,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TabHost;
 import android.widget.TabWidget;
@@ -52,6 +53,7 @@ public class SettingsFragment extends SherlockFragment
     private TableRow rowHeightSub;
     private Spinner spinHeightUnit;
     private Spinner spinWeightUnit;
+    private SeekBar seekStabilityPrecision;
     private TextView textHeightSubUnit;
     private ListView listSyncServices;
     private Switch swSyncAuto;
@@ -72,6 +74,7 @@ public class SettingsFragment extends SherlockFragment
         rowHeightSub = (TableRow)v.findViewById(R.id.rowHeightSub);
         spinHeightUnit = (Spinner)v.findViewById(R.id.spinHeightUnit);
         spinWeightUnit = (Spinner)v.findViewById(R.id.spinWeightUnit);
+        seekStabilityPrecision = (SeekBar)v.findViewById(R.id.seekStabilityPrecision);
         textHeightSubUnit = (TextView)v.findViewById(R.id.textHeightSubUnit);
         listSyncServices = (ListView)v.findViewById(R.id.listSyncServices);
         swSyncAuto = (Switch)v.findViewById(R.id.swSyncAuto);
@@ -178,6 +181,40 @@ public class SettingsFragment extends SherlockFragment
             }
         });
         
+        final float stabilityPrecisionStep = 0.1f;
+
+        seekStabilityPrecision.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar)
+            {
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar)
+            {
+            }
+
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
+            {
+                if (!fromUser)
+                    return;
+
+                float precision = Prefs.STABILITY_PRECISION_MIN + (progress * stabilityPrecisionStep);
+                if (precision == Prefs.getStabilityPrecision())
+                    return;
+
+                if (DEBUG)
+                    Log.d(TAG, "Stability precision change to " + precision);
+
+                SharedPreferences.Editor edit = FitscalesApplication.inst.prefs.edit();
+                edit.putFloat(Prefs.KEY_STABILITY_PRECISION, precision);
+                Prefs.save(edit);
+            }
+        });
+        seekStabilityPrecision.setMax((int)((Prefs.STABILITY_PRECISION_MAX - Prefs.STABILITY_PRECISION_MIN) / stabilityPrecisionStep) + 1);
+        seekStabilityPrecision.setProgress((int)((Prefs.getStabilityPrecision() - Prefs.STABILITY_PRECISION_MIN) / stabilityPrecisionStep));
+
         swSyncAuto.setChecked(Prefs.getSyncAuto());
         swSyncAuto.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override

@@ -591,9 +591,10 @@ public class BoardFragment extends SherlockFragment
         public void run()
         {
             final int nSamples = 50;
-            final float maxWeight = 2.0f;
-            final float maxDelta = 0.2f;
-            final float maxWeightTotal = 4.0f;
+            final float precisionMult = 1.0f / Prefs.getStabilityPrecision();
+            final float maxWeight = 2.0f * precisionMult;
+            final float maxDelta = 0.2f * precisionMult;
+            final float maxWeightTotal = 4.0f * precisionMult;
             float[] tlSamples = new float[nSamples];
             float[] trSamples = new float[nSamples];
             float[] blSamples = new float[nSamples];
@@ -750,7 +751,8 @@ public class BoardFragment extends SherlockFragment
         public void run()
         {
             final int nSamples = 50;
-            final float maxDelta = 0.2f;
+            final float precisionMult = 1.0f / Prefs.getStabilityPrecision();
+            final float maxDelta = 0.2f * precisionMult;
             final float minWeight = 20.0f;
             float[] samples = new float[nSamples];
             Arrays.fill(samples, 0.0f);

@@ -84,6 +84,24 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </TableRow>
+
+                <TableRow android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_span="2"
+                        android:gravity="right"
+                        android:text="@string/settings_body_stability_precision" />
+
+                    <SeekBar
+                        android:id="@+id/seekStabilityPrecision"
+                        android:layout_width="wrap_content"
+                        android:minWidth="100dp"
+                        android:layout_height="wrap_content"
+                        android:max="10" />
+                </TableRow>
             </TableLayout>
 
             <LinearLayout

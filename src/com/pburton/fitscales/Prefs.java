@@ -20,11 +20,16 @@ public class Prefs
     public static final int UNIT_INCH = 1;
     public static final int UNIT_FEET = 2;
 
+    public static final float STABILITY_PRECISION_MIN = 0.2f;
+    public static final float STABILITY_PRECISION_DEF = 1.0f;
+    public static final float STABILITY_PRECISION_MAX = 1.8f;
+
     static final String KEY_HEIGHTUNIT = "height_unit";
     static final String KEY_WEIGHTUNIT = "weight_unit";
     static final String KEY_HEIGHT = "height";
     static final String KEY_LASTWEIGHT = "weight_last";
     static final String KEY_SYNCAUTO = "sync_auto";
+    static final String KEY_STABILITY_PRECISION = "stability_precision";
 
     public static int getHeightUnit()
     {
@@ -69,6 +74,17 @@ public class Prefs
         return FitscalesApplication.inst.prefs.getBoolean(KEY_SYNCAUTO, false);
     }
     
+    public static float getStabilityPrecision()
+    {
+        try {
+            return FitscalesApplication.inst.prefs.getFloat(KEY_STABILITY_PRECISION, 1.0f);
+        } catch (Exception ex) {
+            if (DEBUG)
+                Log.d(TAG, "Failed to parse stability precision", ex);
+            return 1.0f;
+        }
+    }
+
     public static void save(SharedPreferences.Editor edit)
     {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD)
