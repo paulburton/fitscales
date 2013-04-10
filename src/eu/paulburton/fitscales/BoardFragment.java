@@ -1,4 +1,4 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.pburton.fitscales.BalanceBoard.Data;
+import eu.paulburton.fitscales.BalanceBoard.Data;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;

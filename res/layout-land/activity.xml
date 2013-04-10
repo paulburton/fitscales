@@ -10,7 +10,7 @@
 
         <fragment
             android:id="@+id/fragBoard"
-            android:name="com.pburton.fitscales.BoardFragment"
+            android:name="eu.paulburton.fitscales.BoardFragment"
             style="@style/FitScalesBoardFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -20,7 +20,7 @@
             <!-- Preview: layout=@layout/board_fragment -->
         </fragment>
 
-        <com.pburton.fitscales.ScaleView
+        <eu.paulburton.fitscales.ScaleView
             android:id="@+id/scale"
             style="@style/FitScalesScaleView"
             android:layout_width="0dp"
@@ -39,7 +39,7 @@
 
         <fragment
             android:id="@+id/fragSettings"
-            android:name="com.pburton.fitscales.SettingsFragment"
+            android:name="eu.paulburton.fitscales.SettingsFragment"
             style="@style/FitScalesSettingsFragment" />
     </RelativeLayout>
 

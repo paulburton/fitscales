@@ -1,4 +1,4 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import com.larvalabs.svgandroid.SVG;
 import com.larvalabs.svgandroid.SVGParser;

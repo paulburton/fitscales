@@ -133,7 +133,7 @@
                         android:text="@string/settings_sync_global"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-                    <com.pburton.fitscales.widget.Switch
+                    <eu.paulburton.fitscales.widget.Switch
                         android:id="@+id/swSyncAuto"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

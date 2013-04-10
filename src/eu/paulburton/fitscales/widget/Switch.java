@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.pburton.fitscales.widget;
+package eu.paulburton.fitscales.widget;
 
-import com.pburton.fitscales.R;
+import eu.paulburton.fitscales.R;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

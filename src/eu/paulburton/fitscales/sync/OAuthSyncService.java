@@ -1,4 +1,4 @@
-package com.pburton.fitscales.sync;
+package eu.paulburton.fitscales.sync;
 
 import org.scribe.builder.ServiceBuilder;
 import org.scribe.builder.api.Api;
@@ -11,9 +11,9 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.util.Log;
 
-import com.pburton.fitscales.FitscalesApplication;
-import com.pburton.fitscales.Prefs;
-import com.pburton.fitscales.SyncService;
+import eu.paulburton.fitscales.FitscalesApplication;
+import eu.paulburton.fitscales.Prefs;
+import eu.paulburton.fitscales.SyncService;
 
 public class OAuthSyncService extends SyncService
 {

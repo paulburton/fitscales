@@ -1,4 +1,4 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import android.content.Context;
 import android.graphics.Bitmap;

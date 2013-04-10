@@ -1,11 +1,11 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import com.actionbarsherlock.app.SherlockFragment;
-import com.pburton.fitscales.sync.OAuthSyncService;
-import com.pburton.fitscales.widget.Switch;
+import eu.paulburton.fitscales.sync.OAuthSyncService;
+import eu.paulburton.fitscales.widget.Switch;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import java.math.BigDecimal;
 import java.util.Locale;

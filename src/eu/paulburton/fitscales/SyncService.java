@@ -1,4 +1,4 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import android.content.SharedPreferences;
 import android.os.Build;

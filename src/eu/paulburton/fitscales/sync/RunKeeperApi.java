@@ -1,4 +1,4 @@
-package com.pburton.fitscales.sync;
+package eu.paulburton.fitscales.sync;
 
 import org.scribe.builder.api.DefaultApi20;
 import org.scribe.extractors.AccessTokenExtractor;

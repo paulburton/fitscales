@@ -1,9 +1,9 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import java.util.ArrayList;
 
-import com.pburton.fitscales.sync.FitBitSyncService;
-import com.pburton.fitscales.sync.RunKeeperSyncService;
+import eu.paulburton.fitscales.sync.FitBitSyncService;
+import eu.paulburton.fitscales.sync.RunKeeperSyncService;
 
 import android.app.Application;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import java.io.InputStream;
 import java.io.OutputStream;

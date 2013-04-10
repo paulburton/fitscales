@@ -1,6 +1,6 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
-import com.pburton.fitscales.sync.OAuthSyncService;
+import eu.paulburton.fitscales.sync.OAuthSyncService;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;

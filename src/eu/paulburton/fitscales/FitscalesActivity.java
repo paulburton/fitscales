@@ -1,8 +1,8 @@
-package com.pburton.fitscales;
+package eu.paulburton.fitscales;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.pburton.fitscales.sync.OAuthSyncService;
+import eu.paulburton.fitscales.sync.OAuthSyncService;
 
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
